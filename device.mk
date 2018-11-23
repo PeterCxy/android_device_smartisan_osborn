@@ -26,6 +26,7 @@ $(call inherit-product, vendor/smartisan/osborn/osborn-vendor.mk)
 # Overlays
 DEVICE_PACKAGE_OVERLAYS += \
     $(LOCAL_PATH)/overlay \
+    $(LOCAL_PATH)/overlay-nos \
     $(LOCAL_PATH)/overlay-mk
 
 # Permissions
