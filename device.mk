@@ -172,6 +172,8 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/camera/camera_config.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/camera_config.xml
 
 PRODUCT_PACKAGES += \
+    camera.sdm660 \
+    libmm-qcamera \
     libshim_camera \
     android.hardware.camera.provider@2.4-impl \
     android.hardware.camera.provider@2.4-service \

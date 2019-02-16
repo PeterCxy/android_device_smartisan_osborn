@@ -124,8 +124,8 @@ QCOM_BT_USE_SMD_TTY := true
 
 # Camera
 BOARD_QTI_CAMERA_32BIT_ONLY := true
-USE_CAMERA_STUB := true
 USE_DEVICE_SPECIFIC_CAMERA := true
+DEVICE_SPECIFIC_CAMERA_PATH := $(DEVICE_PATH)/camera
 TARGET_USES_QTI_CAMERA_DEVICE := true
 # TODO: Move these back here when we add support for TARGET_LD_SHIM_LIBS
 # For now they are set in init.qcom.rc
